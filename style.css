@@ -1,8 +1,54 @@
-h1, h2 {
-    font-optical-sizing: auto;
-    font-family: "Climate Crisis", sans-serif;
-    font-weight: 400;
+/* Hora de jugar con el css muajajajjaja */
+
+body {
+    background-color: #F55B2D;  /* rip john linnell */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #212932;
+    font-family: "Ubuntu", sans-serif;
     font-style: normal;
+    font-weight: 400;
+}
+
+main {
+    margin: 80px;
+
+    padding: 35px;
+
+    background-color: #F6E7B1;
+}
+
+h1, h2, span, strong {
+    color: #8F0512;
+}
+
+h1, h2 {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+
     font-variation-settings:
         "YEAR" 1979;
+}
+
+h1 {
+    display: inline-block;
+}
+
+span, strong {
+    font-weight: 800;
+    font-optical-sizing: auto;
+}
+
+a {
+    color: #c4670b;
+    font-weight: 700;
+}
+
+a[target = "_blank"] {
+    font-style: italic;
 }
