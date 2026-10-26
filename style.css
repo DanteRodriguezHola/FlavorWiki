@@ -1,13 +1,20 @@
 /* Hora de jugar con el css muajajajjaja */
 
+:root {
+    --flavor-orange: #F55B2D;
+    --meat-red: #8F0512;
+    --pancake-yellow: #F6E7B1;
+    --metal-gray: #212932;
+
+}
 body {
-    background-color: #F55B2D;  /* rip john linnell */
+    background-color: var(--flavor-orange);  /* rip john linnell */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 
-    color: #212932;
+    color: var(--metal-gray);
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -18,11 +25,11 @@ main {
 
     padding: 35px;
 
-    background-color: #F6E7B1;
+    background-color: var(--pancake-yellow);
 }
 
 h1, h2, span, strong {
-    color: #8F0512;
+    color: var(--meat-red);
 }
 
 h1, h2 {
@@ -36,7 +43,12 @@ h1, h2 {
 }
 
 h1 {
-    display: inline-block;
+    display: inline;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
 }
 
 span, strong {
