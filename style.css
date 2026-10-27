@@ -7,6 +7,7 @@
     --metal-gray: #212932;
 
 }
+
 body {
     background-color: var(--flavor-orange);  /* rip john linnell */
     background-size: cover;
@@ -46,11 +47,6 @@ h1 {
     display: inline;
 }
 
-.heading {
-    display: flex;
-    align-items: center;
-}
-
 span, strong {
     font-weight: 800;
     font-optical-sizing: auto;
@@ -63,4 +59,8 @@ a {
 
 a[target = "_blank"] {
     font-style: italic;
+}
+
+.card {
+    background: var(--metal-gray);
 }
